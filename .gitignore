@@ -1056,3 +1056,8 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/sbt,linux,macos,scala,metals,windows,intellij+all,visualstudio
+
+
+# React Native
+frontend/central_truth/.expo/
+frontend/central_truth/node_modules/**/*
