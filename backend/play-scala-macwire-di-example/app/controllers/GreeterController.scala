@@ -7,9 +7,8 @@ import play.api.mvc.{AbstractController, ControllerComponents}
 import play.twirl.api.Html
 import services.GreetingService
 
-class GreeterController(greetingService: GreetingService,
-                        langs: Langs,
-                        cc: ControllerComponents) extends AbstractController(cc) {
+class GreeterController(greetingService: GreetingService, langs: Langs, cc: ControllerComponents) 
+    extends AbstractController(cc) {
 
   val greetingsList = Seq(
     Greeting(1, greetingService.greetingMessage("en"), "sameer"),

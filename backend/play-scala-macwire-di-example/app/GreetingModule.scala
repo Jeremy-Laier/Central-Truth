@@ -12,4 +12,8 @@ trait GreetingModule extends ServicesModule {
   def langs: Langs
 
   def controllerComponents: ControllerComponents
+
+  override def configure() = {
+    Mongo.setModelsPackage("models")
+  }
 }

@@ -5,158 +5,184 @@
         "directory": "/home/jeremy/Notions/backend/play-scala-macwire-di-example",
         "workspaceDir": "/home/jeremy/Notions/backend/play-scala-macwire-di-example",
         "sources": [
-            "/home/jeremy/Notions/backend/play-scala-macwire-di-example/test-2.13",
+            "/home/jeremy/Notions/backend/play-scala-macwire-di-example/test-2.12",
             "/home/jeremy/Notions/backend/play-scala-macwire-di-example/test",
             "/home/jeremy/Notions/backend/play-scala-macwire-di-example/test",
-            "/home/jeremy/Notions/backend/play-scala-macwire-di-example/target/scala-2.13/src_managed/test",
-            "/home/jeremy/Notions/backend/play-scala-macwire-di-example/target/scala-2.13/twirl/test",
-            "/home/jeremy/Notions/backend/play-scala-macwire-di-example/target/scala-2.13/routes/test"
+            "/home/jeremy/Notions/backend/play-scala-macwire-di-example/target/scala-2.12/src_managed/test",
+            "/home/jeremy/Notions/backend/play-scala-macwire-di-example/target/scala-2.12/twirl/test",
+            "/home/jeremy/Notions/backend/play-scala-macwire-di-example/target/scala-2.12/routes/test"
         ],
         "dependencies": [
             "root"
         ],
         "classpath": [
-            "/home/jeremy/Notions/backend/play-scala-macwire-di-example/.bloop/root/scala-2.13/classes",
+            "/home/jeremy/Notions/backend/play-scala-macwire-di-example/.bloop/root/scala-2.12/classes",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.8.1/play-functional_2.12-2.8.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.12/2.6.3/akka-protobuf-v3_2.12-2.6.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.8.1/play-guice_2.12-2.8.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.1.2/play-ws-standalone-xml_2.12-2.1.2.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.8.1/play_2.12-2.8.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.36.0/htmlunit-core-js-2.36.0.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.13/2.3.3/macros_2.13-2.3.3.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.1.2/play-ws-standalone-json_2.12-2.1.2.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.5.3/pprint_2.12-0.5.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.13/5.0.0/scalatestplus-play_2.13-5.0.0.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.12/5.0.0/scalatestplus-play_2.12-5.0.0.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.1/play-akka-http-server_2.13-2.8.1.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.1/play-exceptions-2.8.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.1.2/play-ws-standalone_2.12-2.1.2.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.36.0/htmlunit-2.36.0.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.5.0/htmlunit-cssparser-1.5.0.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/langmeta_2.12/3.7.3/langmeta_2.12-3.7.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.20.v20190813/websocket-client-9.4.20.v20190813.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/codeborne/phantomjsdriver/1.4.4/phantomjsdriver-1.4.4.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/1.0.0/fastparse_2.12-1.0.0.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.12/3.7.3/trees_2.12-3.7.3.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/tokenizers_2.12/3.7.3/tokenizers_2.12-3.7.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.2/jackson-annotations-2.10.2.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.5.0/twirl-api_2.12-1.5.0.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.2/jackson-module-paranamer-2.10.2.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.3/akka-stream_2.13-2.6.3.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.13/2.1.2/play-ahc-ws-standalone_2.13-2.1.2.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.13/2.8.0/play-ahc-ws_2.13-2.8.0.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/transversers_2.12/3.7.3/transversers_2.12-3.7.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.36.0/htmlunit-driver-2.36.0.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.12/2.6.3/akka-serialization-jackson_2.12-2.6.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/brotli/dec/0.1.2/dec-0.1.2.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.1/play-streams_2.13-2.8.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.8.1/play-akka-http-server_2.12-2.8.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.8.1/filters-helpers_2.12-2.8.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.2/jackson-module-parameter-names-2.10.2.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.13/2.1.2/play-ws-standalone-xml_2.13-2.1.2.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb_2.12/3.7.3/semanticdb_2.12-3.7.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.1/filters-helpers_2.13-2.8.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/io_2.12/3.7.3/io_2.12-3.7.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.7.1/fluentlenium-core-3.7.1.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.3/akka-protobuf-v3_2.13-2.6.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.3/akka-actor_2.12-2.6.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.2/jackson-datatype-jdk8-2.10.2.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.13/2.1.2/play-ws-standalone_2.13-2.1.2.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.7.1/scalapb-runtime_2.12-0.7.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.8.1/play-json_2.12-2.8.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.1.2/shaded-asynchttpclient-2.1.2.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/inputs_2.12/3.7.3/inputs_2.12-3.7.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.1/play-server_2.13-2.8.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.8.1/play-streams_2.12-2.8.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.1/play-guice_2.13-2.8.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/2.0.0/cachecontrol_2.12-2.0.0.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.8/scalatest_2.12-3.0.8.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.11/akka-http-core_2.12-10.1.11.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.3/akka-slf4j_2.13-2.6.3.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.7.0-test2/lenses_2.12-0.7.0-test2.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.12/2.6.3/akka-actor-typed_2.12-2.6.3.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.5/fansi_2.12-0.2.5.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.8.1/play-ws_2.12-2.8.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.1.2/shaded-oauth-2.1.2.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-bson_2.12/4.0.1/mongo-scala-bson_2.12-4.0.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.8.1/play-logback_2.12-2.8.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.1.2/play-ahc-ws-standalone_2.12-2.1.2.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.20.v20190813/jetty-client-9.4.20.v20190813.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.2/jackson-module-scala_2.12-2.10.2.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.20.v20190813/jetty-xml-9.4.20.v20190813.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.2/guice-4.2.2.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.20.v20190813/jetty-util-9.4.20.v20190813.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.13/4.0.1/mongo-scala-driver_2.13-4.0.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.12/4.0.1/mongo-scala-driver_2.12-4.0.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.20.v20190813/websocket-api-9.4.20.v20190813.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/dialects_2.12/3.7.3/dialects_2.12-3.7.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/bson/4.0.1/bson-4.0.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.12/3.7.3/common_2.12-3.7.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.2/jackson-module-scala_2.13-2.10.2.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.3/akka-serialization-jackson_2.13-2.6.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.13/2.0.0/cachecontrol_2.13-2.0.0.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.4/sourcecode_2.12-0.1.4.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.13/2.8.1/play-test_2.13-2.8.1.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.1/play-logback_2.13-2.8.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.8.1/play-server_2.12-2.8.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.2/guice-assistedinject-4.2.2.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.8.1/play-ahc-ws_2.12-2.8.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.1/build-link-2.8.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.6.3/akka-slf4j_2.12-2.6.3.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/cn/playscala/codecs_2.12/0.3.0/codecs_2.12-0.3.0.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.2/jackson-dataformat-cbor-2.10.2.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.0/play-ws_2.13-2.8.0.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.9.0/scala-java8-compat_2.12-0.9.0.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.6/commons-net-3.6.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.2/jackson-datatype-jsr310-2.10.2.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.20.v20190813/jetty-io-9.4.20.v20190813.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.13/2.1.2/play-ws-standalone-json_2.13-2.1.2.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.3/akka-actor_2.13-2.6.3.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.1/ssl-config-core_2.12-0.4.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/tokens_2.12/3.7.3/tokens_2.12-3.7.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.3/akka-actor-typed_2.13-2.6.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.12/2.3.3/macros_2.12-2.3.3.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.6.3/akka-stream_2.12-2.6.3.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb3_2.12/3.7.3/semanticdb3_2.12-3.7.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/cn/playscala/play_2.12/0.3.0/play_2.12-0.3.0.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/mongodb-driver-core/4.0.1/mongodb-driver-core-4.0.1.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/quasiquotes_2.12/3.7.3/quasiquotes_2.12-3.7.3.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/mongodb-driver-async/3.7.0/mongodb-driver-async-3.7.0.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.12/3.7.3/parsers_2.12-3.7.3.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/contrib_2.12/3.7.3/contrib_2.12-3.7.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/mongodb-driver-reactivestreams/4.0.1/mongodb-driver-reactivestreams-4.0.1.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.8/scalactic_2.12-3.0.8.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.7/commons-text-1.7.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.11/akka-parsing_2.13-10.1.11.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.8.1/play-test_2.12-2.8.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.12/1.0.0/fastparse-utils_2.12-1.0.0.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.36.0/neko-htmlunit-2.36.0.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-bson_2.13/4.0.1/mongo-scala-bson_2.13-4.0.1.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.20.v20190813/websocket-common-9.4.20.v20190813.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.12/3.7.3/scalameta_2.12-3.7.3.jar",
             "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar",
-            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.20.v20190813/jetty-http-9.4.20.v20190813.jar"
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.20.v20190813/jetty-http-9.4.20.v20190813.jar",
+            "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/cn/playscala/play-mongo_2.12/0.3.0/play-mongo_2.12-0.3.0.jar"
         ],
         "out": "/home/jeremy/Notions/backend/play-scala-macwire-di-example/.bloop/root",
-        "classesDir": "/home/jeremy/Notions/backend/play-scala-macwire-di-example/.bloop/root/scala-2.13/test-classes",
+        "classesDir": "/home/jeremy/Notions/backend/play-scala-macwire-di-example/.bloop/root/scala-2.12/test-classes",
         "resources": [
             "/home/jeremy/Notions/backend/play-scala-macwire-di-example/test/resources",
-            "/home/jeremy/Notions/backend/play-scala-macwire-di-example/target/scala-2.13/resource_managed/test"
+            "/home/jeremy/Notions/backend/play-scala-macwire-di-example/target/scala-2.12/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
             "name": "scala-compiler",
-            "version": "2.13.1",
+            "version": "2.12.8",
             "options": [
                 "-deprecation",
                 "-unchecked",
@@ -164,16 +190,17 @@
                 "utf8",
                 "-feature",
                 "-deprecation",
-                "-Xfatal-warnings"
+                "-Xfatal-warnings",
+                "-Xplugin:/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalamacros/paradise_2.12.8/2.1.1/paradise_2.12.8-2.1.1.jar"
             ],
             "jars": [
-                "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
-                "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar",
+                "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
+                "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar",
                 "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
-                "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar",
-                "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar"
+                "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar",
+                "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar"
             ],
-            "analysis": "/home/jeremy/Notions/backend/play-scala-macwire-di-example/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
+            "analysis": "/home/jeremy/Notions/backend/play-scala-macwire-di-example/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -267,6 +294,74 @@
         "resolution": {
             "modules": [
                 {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-functional_2.12",
+                    "version": "2.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-functional_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.8.1/play-functional_2.12-2.8.1.jar"
+                        },
+                        {
+                            "name": "play-functional_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.8.1/play-functional_2.12-2.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-protobuf-v3_2.12",
+                    "version": "2.6.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-protobuf-v3_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.12/2.6.3/akka-protobuf-v3_2.12-2.6.3.jar"
+                        },
+                        {
+                            "name": "akka-protobuf-v3_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.12/2.6.3/akka-protobuf-v3_2.12-2.6.3-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.scala-sbt",
                     "name": "test-interface",
                     "version": "1.0",
@@ -280,6 +375,23 @@
                             "name": "test-interface",
                             "classifier": "sources",
                             "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-guice_2.12",
+                    "version": "2.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-guice_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.8.1/play-guice_2.12-2.8.1.jar"
+                        },
+                        {
+                            "name": "play-guice_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.8.1/play-guice_2.12-2.8.1-sources.jar"
                         }
                     ]
                 },
@@ -318,6 +430,23 @@
                     ]
                 },
                 {
+                    "organization": "com.typesafe.play",
+                    "name": "play-ws-standalone-xml_2.12",
+                    "version": "2.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-ws-standalone-xml_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.1.2/play-ws-standalone-xml_2.12-2.1.2.jar"
+                        },
+                        {
+                            "name": "play-ws-standalone-xml_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.1.2/play-ws-standalone-xml_2.12-2.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "javax.inject",
                     "name": "javax.inject",
                     "version": "1",
@@ -331,23 +460,6 @@
                             "name": "javax.inject",
                             "classifier": "sources",
                             "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-lang.modules",
-                    "name": "scala-xml_2.13",
-                    "version": "1.2.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-xml_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar"
-                        },
-                        {
-                            "name": "scala-xml_2.13",
-                            "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar"
                         }
                     ]
                 },
@@ -403,19 +515,36 @@
                     ]
                 },
                 {
-                    "organization": "org.scalatest",
-                    "name": "scalatest_2.13",
-                    "version": "3.0.8",
+                    "organization": "com.typesafe.play",
+                    "name": "play_2.12",
+                    "version": "2.8.1",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "scalatest_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8.jar"
+                            "name": "play_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.8.1/play_2.12-2.8.1.jar"
                         },
                         {
-                            "name": "scalatest_2.13",
+                            "name": "play_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.0.8/scalatest_2.13-3.0.8-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.8.1/play_2.12-2.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-parsing_2.12",
+                    "version": "10.1.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-parsing_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11.jar"
+                        },
+                        {
+                            "name": "akka-parsing_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11-sources.jar"
                         }
                     ]
                 },
@@ -471,19 +600,36 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-lang.modules",
-                    "name": "scala-java8-compat_2.13",
-                    "version": "0.9.0",
+                    "organization": "com.typesafe.play",
+                    "name": "play-ws-standalone-json_2.12",
+                    "version": "2.1.2",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "scala-java8-compat_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar"
+                            "name": "play-ws-standalone-json_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.1.2/play-ws-standalone-json_2.12-2.1.2.jar"
                         },
                         {
-                            "name": "scala-java8-compat_2.13",
+                            "name": "play-ws-standalone-json_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.1.2/play-ws-standalone-json_2.12-2.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "pprint_2.12",
+                    "version": "0.5.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "pprint_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.5.3/pprint_2.12-0.5.3.jar"
+                        },
+                        {
+                            "name": "pprint_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.5.3/pprint_2.12-0.5.3-sources.jar"
                         }
                     ]
                 },
@@ -506,18 +652,18 @@
                 },
                 {
                     "organization": "org.scalatestplus.play",
-                    "name": "scalatestplus-play_2.13",
+                    "name": "scalatestplus-play_2.12",
                     "version": "5.0.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "scalatestplus-play_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.13/5.0.0/scalatestplus-play_2.13-5.0.0.jar"
+                            "name": "scalatestplus-play_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.12/5.0.0/scalatestplus-play_2.12-5.0.0.jar"
                         },
                         {
-                            "name": "scalatestplus-play_2.13",
+                            "name": "scalatestplus-play_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.13/5.0.0/scalatestplus-play_2.13-5.0.0-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/play/scalatestplus-play_2.12/5.0.0/scalatestplus-play_2.12-5.0.0-sources.jar"
                         }
                     ]
                 },
@@ -535,40 +681,6 @@
                             "name": "byte-buddy",
                             "classifier": "sources",
                             "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.typesafe.play",
-                    "name": "play-akka-http-server_2.13",
-                    "version": "2.8.1",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "play-akka-http-server_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.1/play-akka-http-server_2.13-2.8.1.jar"
-                        },
-                        {
-                            "name": "play-akka-http-server_2.13",
-                            "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.1/play-akka-http-server_2.13-2.8.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-lang",
-                    "name": "scala-library",
-                    "version": "2.13.1",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-library",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
-                        },
-                        {
-                            "name": "scala-library",
-                            "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
                         }
                     ]
                 },
@@ -608,18 +720,18 @@
                 },
                 {
                     "organization": "com.typesafe.play",
-                    "name": "twirl-api_2.13",
-                    "version": "1.5.0",
+                    "name": "play-ws-standalone_2.12",
+                    "version": "2.1.2",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "twirl-api_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0.jar"
+                            "name": "play-ws-standalone_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.1.2/play-ws-standalone_2.12-2.1.2.jar"
                         },
                         {
-                            "name": "twirl-api_2.13",
+                            "name": "play-ws-standalone_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.1.2/play-ws-standalone_2.12-2.1.2-sources.jar"
                         }
                     ]
                 },
@@ -658,6 +770,23 @@
                     ]
                 },
                 {
+                    "organization": "org.scalameta",
+                    "name": "langmeta_2.12",
+                    "version": "3.7.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "langmeta_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/langmeta_2.12/3.7.3/langmeta_2.12-3.7.3.jar"
+                        },
+                        {
+                            "name": "langmeta_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/langmeta_2.12/3.7.3/langmeta_2.12-3.7.3-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.eclipse.jetty.websocket",
                     "name": "websocket-client",
                     "version": "9.4.20.v20190813",
@@ -692,19 +821,70 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-lang.modules",
-                    "name": "scala-parser-combinators_2.13",
-                    "version": "1.1.2",
+                    "organization": "com.lihaoyi",
+                    "name": "fastparse_2.12",
+                    "version": "1.0.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "scala-parser-combinators_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"
+                            "name": "fastparse_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/1.0.0/fastparse_2.12-1.0.0.jar"
                         },
                         {
-                            "name": "scala-parser-combinators_2.13",
+                            "name": "fastparse_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/1.0.0/fastparse_2.12-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "trees_2.12",
+                    "version": "3.7.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "trees_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.12/3.7.3/trees_2.12-3.7.3.jar"
+                        },
+                        {
+                            "name": "trees_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.12/3.7.3/trees_2.12-3.7.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.12",
+                    "version": "1.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "tokenizers_2.12",
+                    "version": "3.7.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "tokenizers_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/tokenizers_2.12/3.7.3/tokenizers_2.12-3.7.3.jar"
+                        },
+                        {
+                            "name": "tokenizers_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/tokenizers_2.12/3.7.3/tokenizers_2.12-3.7.3-sources.jar"
                         }
                     ]
                 },
@@ -743,6 +923,23 @@
                     ]
                 },
                 {
+                    "organization": "com.typesafe.play",
+                    "name": "twirl-api_2.12",
+                    "version": "1.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "twirl-api_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.5.0/twirl-api_2.12-1.5.0.jar"
+                        },
+                        {
+                            "name": "twirl-api_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.5.0/twirl-api_2.12-1.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.fasterxml.jackson.module",
                     "name": "jackson-module-paranamer",
                     "version": "2.10.2",
@@ -760,53 +957,19 @@
                     ]
                 },
                 {
-                    "organization": "com.typesafe.akka",
-                    "name": "akka-stream_2.13",
-                    "version": "2.6.3",
+                    "organization": "org.scalameta",
+                    "name": "transversers_2.12",
+                    "version": "3.7.3",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "akka-stream_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.3/akka-stream_2.13-2.6.3.jar"
+                            "name": "transversers_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/transversers_2.12/3.7.3/transversers_2.12-3.7.3.jar"
                         },
                         {
-                            "name": "akka-stream_2.13",
+                            "name": "transversers_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.3/akka-stream_2.13-2.6.3-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.typesafe.play",
-                    "name": "play-ahc-ws-standalone_2.13",
-                    "version": "2.1.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "play-ahc-ws-standalone_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.13/2.1.2/play-ahc-ws-standalone_2.13-2.1.2.jar"
-                        },
-                        {
-                            "name": "play-ahc-ws-standalone_2.13",
-                            "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.13/2.1.2/play-ahc-ws-standalone_2.13-2.1.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.typesafe.play",
-                    "name": "play-ahc-ws_2.13",
-                    "version": "2.8.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "play-ahc-ws_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.13/2.8.0/play-ahc-ws_2.13-2.8.0.jar"
-                        },
-                        {
-                            "name": "play-ahc-ws_2.13",
-                            "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.13/2.8.0/play-ahc-ws_2.13-2.8.0-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/transversers_2.12/3.7.3/transversers_2.12-3.7.3-sources.jar"
                         }
                     ]
                 },
@@ -845,6 +1008,23 @@
                     ]
                 },
                 {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-serialization-jackson_2.12",
+                    "version": "2.6.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-serialization-jackson_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.12/2.6.3/akka-serialization-jackson_2.12-2.6.3.jar"
+                        },
+                        {
+                            "name": "akka-serialization-jackson_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.12/2.6.3/akka-serialization-jackson_2.12-2.6.3-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.brotli",
                     "name": "dec",
                     "version": "0.1.2",
@@ -863,52 +1043,35 @@
                 },
                 {
                     "organization": "com.typesafe.play",
-                    "name": "play_2.13",
+                    "name": "play-akka-http-server_2.12",
                     "version": "2.8.1",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "play_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1.jar"
+                            "name": "play-akka-http-server_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.8.1/play-akka-http-server_2.12-2.8.1.jar"
                         },
                         {
-                            "name": "play_2.13",
+                            "name": "play-akka-http-server_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.typesafe.akka",
-                    "name": "akka-http-core_2.13",
-                    "version": "10.1.11",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "akka-http-core_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11.jar"
-                        },
-                        {
-                            "name": "akka-http-core_2.13",
-                            "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.8.1/play-akka-http-server_2.12-2.8.1-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.typesafe.play",
-                    "name": "play-streams_2.13",
+                    "name": "filters-helpers_2.12",
                     "version": "2.8.1",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "play-streams_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.1/play-streams_2.13-2.8.1.jar"
+                            "name": "filters-helpers_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.8.1/filters-helpers_2.12-2.8.1.jar"
                         },
                         {
-                            "name": "play-streams_2.13",
+                            "name": "filters-helpers_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.1/play-streams_2.13-2.8.1-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.8.1/filters-helpers_2.12-2.8.1-sources.jar"
                         }
                     ]
                 },
@@ -964,36 +1127,19 @@
                     ]
                 },
                 {
-                    "organization": "com.typesafe.play",
-                    "name": "play-ws-standalone-xml_2.13",
-                    "version": "2.1.2",
+                    "organization": "org.scalameta",
+                    "name": "semanticdb_2.12",
+                    "version": "3.7.3",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "play-ws-standalone-xml_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.13/2.1.2/play-ws-standalone-xml_2.13-2.1.2.jar"
+                            "name": "semanticdb_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb_2.12/3.7.3/semanticdb_2.12-3.7.3.jar"
                         },
                         {
-                            "name": "play-ws-standalone-xml_2.13",
+                            "name": "semanticdb_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.13/2.1.2/play-ws-standalone-xml_2.13-2.1.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scalactic",
-                    "name": "scalactic_2.13",
-                    "version": "3.0.8",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scalactic_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8.jar"
-                        },
-                        {
-                            "name": "scalactic_2.13",
-                            "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.0.8/scalactic_2.13-3.0.8-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb_2.12/3.7.3/semanticdb_2.12-3.7.3-sources.jar"
                         }
                     ]
                 },
@@ -1032,19 +1178,19 @@
                     ]
                 },
                 {
-                    "organization": "com.typesafe.play",
-                    "name": "filters-helpers_2.13",
-                    "version": "2.8.1",
+                    "organization": "org.scalameta",
+                    "name": "io_2.12",
+                    "version": "3.7.3",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "filters-helpers_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.1/filters-helpers_2.13-2.8.1.jar"
+                            "name": "io_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/io_2.12/3.7.3/io_2.12-3.7.3.jar"
                         },
                         {
-                            "name": "filters-helpers_2.13",
+                            "name": "io_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.1/filters-helpers_2.13-2.8.1-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/io_2.12/3.7.3/io_2.12-3.7.3-sources.jar"
                         }
                     ]
                 },
@@ -1100,23 +1246,6 @@
                     ]
                 },
                 {
-                    "organization": "com.typesafe.akka",
-                    "name": "akka-protobuf-v3_2.13",
-                    "version": "2.6.3",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "akka-protobuf-v3_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.3/akka-protobuf-v3_2.13-2.6.3.jar"
-                        },
-                        {
-                            "name": "akka-protobuf-v3_2.13",
-                            "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.3/akka-protobuf-v3_2.13-2.6.3-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "com.google.guava",
                     "name": "listenablefuture",
                     "version": "9999.0-empty-to-avoid-conflict-with-guava",
@@ -1142,6 +1271,23 @@
                             "name": "commons-logging",
                             "classifier": "sources",
                             "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor_2.12",
+                    "version": "2.6.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.3/akka-actor_2.12-2.6.3.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.3/akka-actor_2.12-2.6.3-sources.jar"
                         }
                     ]
                 },
@@ -1180,19 +1326,53 @@
                     ]
                 },
                 {
-                    "organization": "com.typesafe.play",
-                    "name": "play-ws-standalone_2.13",
-                    "version": "2.1.2",
+                    "organization": "com.thesamet.scalapb",
+                    "name": "scalapb-runtime_2.12",
+                    "version": "0.7.1",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "play-ws-standalone_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.13/2.1.2/play-ws-standalone_2.13-2.1.2.jar"
+                            "name": "scalapb-runtime_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.7.1/scalapb-runtime_2.12-0.7.1.jar"
                         },
                         {
-                            "name": "play-ws-standalone_2.13",
+                            "name": "scalapb-runtime_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.13/2.1.2/play-ws-standalone_2.13-2.1.2-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.7.1/scalapb-runtime_2.12-0.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.12",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-json_2.12",
+                    "version": "2.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-json_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.8.1/play-json_2.12-2.8.1.jar"
+                        },
+                        {
+                            "name": "play-json_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.8.1/play-json_2.12-2.8.1-sources.jar"
                         }
                     ]
                 },
@@ -1210,6 +1390,23 @@
                             "name": "shaded-asynchttpclient",
                             "classifier": "sources",
                             "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.1.2/shaded-asynchttpclient-2.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "inputs_2.12",
+                    "version": "3.7.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "inputs_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/inputs_2.12/3.7.3/inputs_2.12-3.7.3.jar"
+                        },
+                        {
+                            "name": "inputs_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/inputs_2.12/3.7.3/inputs_2.12-3.7.3-sources.jar"
                         }
                     ]
                 },
@@ -1232,18 +1429,18 @@
                 },
                 {
                     "organization": "com.typesafe.play",
-                    "name": "play-server_2.13",
+                    "name": "play-streams_2.12",
                     "version": "2.8.1",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "play-server_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.1/play-server_2.13-2.8.1.jar"
+                            "name": "play-streams_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.8.1/play-streams_2.12-2.8.1.jar"
                         },
                         {
-                            "name": "play-server_2.13",
+                            "name": "play-streams_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.1/play-server_2.13-2.8.1-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.8.1/play-streams_2.12-2.8.1-sources.jar"
                         }
                     ]
                 },
@@ -1266,18 +1463,52 @@
                 },
                 {
                     "organization": "com.typesafe.play",
-                    "name": "play-guice_2.13",
-                    "version": "2.8.1",
+                    "name": "cachecontrol_2.12",
+                    "version": "2.0.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "play-guice_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.1/play-guice_2.13-2.8.1.jar"
+                            "name": "cachecontrol_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/2.0.0/cachecontrol_2.12-2.0.0.jar"
                         },
                         {
-                            "name": "play-guice_2.13",
+                            "name": "cachecontrol_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.1/play-guice_2.13-2.8.1-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/2.0.0/cachecontrol_2.12-2.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.12",
+                    "version": "3.0.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.8/scalatest_2.12-3.0.8.jar"
+                        },
+                        {
+                            "name": "scalatest_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.8/scalatest_2.12-3.0.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-http-core_2.12",
+                    "version": "10.1.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-http-core_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.11/akka-http-core_2.12-10.1.11.jar"
+                        },
+                        {
+                            "name": "akka-http-core_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.11/akka-http-core_2.12-10.1.11-sources.jar"
                         }
                     ]
                 },
@@ -1316,19 +1547,53 @@
                     ]
                 },
                 {
+                    "organization": "com.thesamet.scalapb",
+                    "name": "lenses_2.12",
+                    "version": "0.7.0-test2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "lenses_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.7.0-test2/lenses_2.12-0.7.0-test2.jar"
+                        },
+                        {
+                            "name": "lenses_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.7.0-test2/lenses_2.12-0.7.0-test2-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.typesafe.akka",
-                    "name": "akka-slf4j_2.13",
+                    "name": "akka-actor-typed_2.12",
                     "version": "2.6.3",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "akka-slf4j_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.3/akka-slf4j_2.13-2.6.3.jar"
+                            "name": "akka-actor-typed_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.12/2.6.3/akka-actor-typed_2.12-2.6.3.jar"
                         },
                         {
-                            "name": "akka-slf4j_2.13",
+                            "name": "akka-actor-typed_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.3/akka-slf4j_2.13-2.6.3-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.12/2.6.3/akka-actor-typed_2.12-2.6.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "fansi_2.12",
+                    "version": "0.2.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fansi_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.5/fansi_2.12-0.2.5.jar"
+                        },
+                        {
+                            "name": "fansi_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.5/fansi_2.12-0.2.5-sources.jar"
                         }
                     ]
                 },
@@ -1380,6 +1645,23 @@
                             "name": "selenium-support",
                             "classifier": "sources",
                             "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-ws_2.12",
+                    "version": "2.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-ws_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.8.1/play-ws_2.12-2.8.1.jar"
+                        },
+                        {
+                            "name": "play-ws_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.8.1/play-ws_2.12-2.8.1-sources.jar"
                         }
                     ]
                 },
@@ -1452,6 +1734,57 @@
                     ]
                 },
                 {
+                    "organization": "org.mongodb.scala",
+                    "name": "mongo-scala-bson_2.12",
+                    "version": "4.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "mongo-scala-bson_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-bson_2.12/4.0.1/mongo-scala-bson_2.12-4.0.1.jar"
+                        },
+                        {
+                            "name": "mongo-scala-bson_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-bson_2.12/4.0.1/mongo-scala-bson_2.12-4.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-logback_2.12",
+                    "version": "2.8.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-logback_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.8.1/play-logback_2.12-2.8.1.jar"
+                        },
+                        {
+                            "name": "play-logback_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.8.1/play-logback_2.12-2.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-ahc-ws-standalone_2.12",
+                    "version": "2.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-ahc-ws-standalone_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.1.2/play-ahc-ws-standalone_2.12-2.1.2.jar"
+                        },
+                        {
+                            "name": "play-ahc-ws-standalone_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.1.2/play-ahc-ws-standalone_2.12-2.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.eclipse.jetty",
                     "name": "jetty-client",
                     "version": "9.4.20.v20190813",
@@ -1482,6 +1815,23 @@
                             "name": "failureaccess",
                             "classifier": "sources",
                             "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-scala_2.12",
+                    "version": "2.10.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-scala_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.2/jackson-module-scala_2.12-2.10.2.jar"
+                        },
+                        {
+                            "name": "jackson-module-scala_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.2/jackson-module-scala_2.12-2.10.2-sources.jar"
                         }
                     ]
                 },
@@ -1555,18 +1905,18 @@
                 },
                 {
                     "organization": "org.mongodb.scala",
-                    "name": "mongo-scala-driver_2.13",
+                    "name": "mongo-scala-driver_2.12",
                     "version": "4.0.1",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "mongo-scala-driver_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.13/4.0.1/mongo-scala-driver_2.13-4.0.1.jar"
+                            "name": "mongo-scala-driver_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.12/4.0.1/mongo-scala-driver_2.12-4.0.1.jar"
                         },
                         {
-                            "name": "mongo-scala-driver_2.13",
+                            "name": "mongo-scala-driver_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.13/4.0.1/mongo-scala-driver_2.13-4.0.1-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.12/4.0.1/mongo-scala-driver_2.12-4.0.1-sources.jar"
                         }
                     ]
                 },
@@ -1584,6 +1934,23 @@
                             "name": "websocket-api",
                             "classifier": "sources",
                             "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.20.v20190813/websocket-api-9.4.20.v20190813-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "dialects_2.12",
+                    "version": "3.7.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "dialects_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/dialects_2.12/3.7.3/dialects_2.12-3.7.3.jar"
+                        },
+                        {
+                            "name": "dialects_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/dialects_2.12/3.7.3/dialects_2.12-3.7.3-sources.jar"
                         }
                     ]
                 },
@@ -1622,6 +1989,23 @@
                     ]
                 },
                 {
+                    "organization": "org.scalameta",
+                    "name": "common_2.12",
+                    "version": "3.7.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "common_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.12/3.7.3/common_2.12-3.7.3.jar"
+                        },
+                        {
+                            "name": "common_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.12/3.7.3/common_2.12-3.7.3-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.slf4j",
                     "name": "jcl-over-slf4j",
                     "version": "1.7.29",
@@ -1635,40 +2019,6 @@
                             "name": "jcl-over-slf4j",
                             "classifier": "sources",
                             "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.fasterxml.jackson.module",
-                    "name": "jackson-module-scala_2.13",
-                    "version": "2.10.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "jackson-module-scala_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.2/jackson-module-scala_2.13-2.10.2.jar"
-                        },
-                        {
-                            "name": "jackson-module-scala_2.13",
-                            "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.2/jackson-module-scala_2.13-2.10.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.typesafe.akka",
-                    "name": "akka-serialization-jackson_2.13",
-                    "version": "2.6.3",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "akka-serialization-jackson_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.3/akka-serialization-jackson_2.13-2.6.3.jar"
-                        },
-                        {
-                            "name": "akka-serialization-jackson_2.13",
-                            "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.3/akka-serialization-jackson_2.13-2.6.3-sources.jar"
                         }
                     ]
                 },
@@ -1690,23 +2040,6 @@
                     ]
                 },
                 {
-                    "organization": "com.typesafe.play",
-                    "name": "cachecontrol_2.13",
-                    "version": "2.0.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "cachecontrol_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.13/2.0.0/cachecontrol_2.13-2.0.0.jar"
-                        },
-                        {
-                            "name": "cachecontrol_2.13",
-                            "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.13/2.0.0/cachecontrol_2.13-2.0.0-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "org.apache.httpcomponents",
                     "name": "httpcore",
                     "version": "4.4.11",
@@ -1724,19 +2057,19 @@
                     ]
                 },
                 {
-                    "organization": "com.typesafe",
-                    "name": "ssl-config-core_2.13",
-                    "version": "0.4.1",
+                    "organization": "com.lihaoyi",
+                    "name": "sourcecode_2.12",
+                    "version": "0.1.4",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "ssl-config-core_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1.jar"
+                            "name": "sourcecode_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.4/sourcecode_2.12-0.1.4.jar"
                         },
                         {
-                            "name": "ssl-config-core_2.13",
+                            "name": "sourcecode_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.4/sourcecode_2.12-0.1.4-sources.jar"
                         }
                     ]
                 },
@@ -1776,35 +2109,18 @@
                 },
                 {
                     "organization": "com.typesafe.play",
-                    "name": "play-test_2.13",
+                    "name": "play-server_2.12",
                     "version": "2.8.1",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "play-test_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.13/2.8.1/play-test_2.13-2.8.1.jar"
+                            "name": "play-server_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.8.1/play-server_2.12-2.8.1.jar"
                         },
                         {
-                            "name": "play-test_2.13",
+                            "name": "play-server_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.13/2.8.1/play-test_2.13-2.8.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.typesafe.play",
-                    "name": "play-logback_2.13",
-                    "version": "2.8.1",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "play-logback_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.1/play-logback_2.13-2.8.1.jar"
-                        },
-                        {
-                            "name": "play-logback_2.13",
-                            "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.1/play-logback_2.13-2.8.1-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.8.1/play-server_2.12-2.8.1-sources.jar"
                         }
                     ]
                 },
@@ -1844,18 +2160,18 @@
                 },
                 {
                     "organization": "com.typesafe.play",
-                    "name": "play-functional_2.13",
+                    "name": "play-ahc-ws_2.12",
                     "version": "2.8.1",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "play-functional_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1.jar"
+                            "name": "play-ahc-ws_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.8.1/play-ahc-ws_2.12-2.8.1.jar"
                         },
                         {
-                            "name": "play-functional_2.13",
+                            "name": "play-ahc-ws_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.8.1/play-ahc-ws_2.12-2.8.1-sources.jar"
                         }
                     ]
                 },
@@ -1911,6 +2227,40 @@
                     ]
                 },
                 {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-slf4j_2.12",
+                    "version": "2.6.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-slf4j_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.6.3/akka-slf4j_2.12-2.6.3.jar"
+                        },
+                        {
+                            "name": "akka-slf4j_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.6.3/akka-slf4j_2.12-2.6.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "cn.playscala",
+                    "name": "codecs_2.12",
+                    "version": "0.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "codecs_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/cn/playscala/codecs_2.12/0.3.0/codecs_2.12-0.3.0.jar"
+                        },
+                        {
+                            "name": "codecs_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/cn/playscala/codecs_2.12/0.3.0/codecs_2.12-0.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.fasterxml.jackson.dataformat",
                     "name": "jackson-dataformat-cbor",
                     "version": "2.10.2",
@@ -1928,19 +2278,19 @@
                     ]
                 },
                 {
-                    "organization": "com.typesafe.play",
-                    "name": "play-ws_2.13",
-                    "version": "2.8.0",
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-java8-compat_2.12",
+                    "version": "0.9.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "play-ws_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.0/play-ws_2.13-2.8.0.jar"
+                            "name": "scala-java8-compat_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.9.0/scala-java8-compat_2.12-0.9.0.jar"
                         },
                         {
-                            "name": "play-ws_2.13",
+                            "name": "scala-java8-compat_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.0/play-ws_2.13-2.8.0-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.9.0/scala-java8-compat_2.12-0.9.0-sources.jar"
                         }
                     ]
                 },
@@ -2064,36 +2414,36 @@
                     ]
                 },
                 {
-                    "organization": "com.typesafe.play",
-                    "name": "play-ws-standalone-json_2.13",
-                    "version": "2.1.2",
+                    "organization": "com.typesafe",
+                    "name": "ssl-config-core_2.12",
+                    "version": "0.4.1",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "play-ws-standalone-json_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.13/2.1.2/play-ws-standalone-json_2.13-2.1.2.jar"
+                            "name": "ssl-config-core_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.1/ssl-config-core_2.12-0.4.1.jar"
                         },
                         {
-                            "name": "play-ws-standalone-json_2.13",
+                            "name": "ssl-config-core_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.13/2.1.2/play-ws-standalone-json_2.13-2.1.2-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.1/ssl-config-core_2.12-0.4.1-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "com.typesafe.akka",
-                    "name": "akka-actor_2.13",
-                    "version": "2.6.3",
+                    "organization": "org.scalameta",
+                    "name": "tokens_2.12",
+                    "version": "3.7.3",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "akka-actor_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.3/akka-actor_2.13-2.6.3.jar"
+                            "name": "tokens_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/tokens_2.12/3.7.3/tokens_2.12-3.7.3.jar"
                         },
                         {
-                            "name": "akka-actor_2.13",
+                            "name": "tokens_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.3/akka-actor_2.13-2.6.3-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/tokens_2.12/3.7.3/tokens_2.12-3.7.3-sources.jar"
                         }
                     ]
                 },
@@ -2115,23 +2465,6 @@
                     ]
                 },
                 {
-                    "organization": "com.typesafe.akka",
-                    "name": "akka-actor-typed_2.13",
-                    "version": "2.6.3",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "akka-actor-typed_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.3/akka-actor-typed_2.13-2.6.3.jar"
-                        },
-                        {
-                            "name": "akka-actor-typed_2.13",
-                            "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.3/akka-actor-typed_2.13-2.6.3-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "jakarta.xml.bind",
                     "name": "jakarta.xml.bind-api",
                     "version": "2.3.2",
@@ -2145,6 +2478,40 @@
                             "name": "jakarta.xml.bind-api",
                             "classifier": "sources",
                             "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-stream_2.12",
+                    "version": "2.6.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-stream_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.6.3/akka-stream_2.12-2.6.3.jar"
+                        },
+                        {
+                            "name": "akka-stream_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.6.3/akka-stream_2.12-2.6.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "semanticdb3_2.12",
+                    "version": "3.7.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "semanticdb3_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb3_2.12/3.7.3/semanticdb3_2.12-3.7.3.jar"
+                        },
+                        {
+                            "name": "semanticdb3_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb3_2.12/3.7.3/semanticdb3_2.12-3.7.3-sources.jar"
                         }
                     ]
                 },
@@ -2166,19 +2533,19 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-lang",
-                    "name": "scala-reflect",
-                    "version": "2.13.1",
+                    "organization": "cn.playscala",
+                    "name": "play_2.12",
+                    "version": "0.3.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "scala-reflect",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar"
+                            "name": "play_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/cn/playscala/play_2.12/0.3.0/play_2.12-0.3.0.jar"
                         },
                         {
-                            "name": "scala-reflect",
+                            "name": "play_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/cn/playscala/play_2.12/0.3.0/play_2.12-0.3.0-sources.jar"
                         }
                     ]
                 },
@@ -2200,19 +2567,70 @@
                     ]
                 },
                 {
-                    "organization": "com.typesafe.play",
-                    "name": "play-json_2.13",
-                    "version": "2.8.1",
+                    "organization": "org.scalameta",
+                    "name": "quasiquotes_2.12",
+                    "version": "3.7.3",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "play-json_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1.jar"
+                            "name": "quasiquotes_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/quasiquotes_2.12/3.7.3/quasiquotes_2.12-3.7.3.jar"
                         },
                         {
-                            "name": "play-json_2.13",
+                            "name": "quasiquotes_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/quasiquotes_2.12/3.7.3/quasiquotes_2.12-3.7.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb",
+                    "name": "mongodb-driver-async",
+                    "version": "3.7.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "mongodb-driver-async",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/mongodb-driver-async/3.7.0/mongodb-driver-async-3.7.0.jar"
+                        },
+                        {
+                            "name": "mongodb-driver-async",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/mongodb-driver-async/3.7.0/mongodb-driver-async-3.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "parsers_2.12",
+                    "version": "3.7.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "parsers_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.12/3.7.3/parsers_2.12-3.7.3.jar"
+                        },
+                        {
+                            "name": "parsers_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.12/3.7.3/parsers_2.12-3.7.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "contrib_2.12",
+                    "version": "3.7.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "contrib_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/contrib_2.12/3.7.3/contrib_2.12-3.7.3.jar"
+                        },
+                        {
+                            "name": "contrib_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/contrib_2.12/3.7.3/contrib_2.12-3.7.3-sources.jar"
                         }
                     ]
                 },
@@ -2234,6 +2652,23 @@
                     ]
                 },
                 {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.12",
+                    "version": "3.0.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.8/scalactic_2.12-3.0.8.jar"
+                        },
+                        {
+                            "name": "scalactic_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.8/scalactic_2.12-3.0.8-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.apache.commons",
                     "name": "commons-text",
                     "version": "1.7",
@@ -2251,19 +2686,19 @@
                     ]
                 },
                 {
-                    "organization": "com.typesafe.akka",
-                    "name": "akka-parsing_2.13",
-                    "version": "10.1.11",
+                    "organization": "com.typesafe.play",
+                    "name": "play-test_2.12",
+                    "version": "2.8.1",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "akka-parsing_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.11/akka-parsing_2.13-10.1.11.jar"
+                            "name": "play-test_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.8.1/play-test_2.12-2.8.1.jar"
                         },
                         {
-                            "name": "akka-parsing_2.13",
+                            "name": "play-test_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.11/akka-parsing_2.13-10.1.11-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.8.1/play-test_2.12-2.8.1-sources.jar"
                         }
                     ]
                 },
@@ -2281,6 +2716,23 @@
                             "name": "animal-sniffer-annotations",
                             "classifier": "sources",
                             "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "fastparse-utils_2.12",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fastparse-utils_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.12/1.0.0/fastparse-utils_2.12-1.0.0.jar"
+                        },
+                        {
+                            "name": "fastparse-utils_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.12/1.0.0/fastparse-utils_2.12-1.0.0-sources.jar"
                         }
                     ]
                 },
@@ -2353,23 +2805,6 @@
                     ]
                 },
                 {
-                    "organization": "org.mongodb.scala",
-                    "name": "mongo-scala-bson_2.13",
-                    "version": "4.0.1",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "mongo-scala-bson_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-bson_2.13/4.0.1/mongo-scala-bson_2.13-4.0.1.jar"
-                        },
-                        {
-                            "name": "mongo-scala-bson_2.13",
-                            "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-bson_2.13/4.0.1/mongo-scala-bson_2.13-4.0.1-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "xerces",
                     "name": "xercesImpl",
                     "version": "2.12.0",
@@ -2400,6 +2835,23 @@
                             "name": "websocket-common",
                             "classifier": "sources",
                             "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.20.v20190813/websocket-common-9.4.20.v20190813-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "scalameta_2.12",
+                    "version": "3.7.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalameta_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.12/3.7.3/scalameta_2.12-3.7.3.jar"
+                        },
+                        {
+                            "name": "scalameta_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.12/3.7.3/scalameta_2.12-3.7.3-sources.jar"
                         }
                     ]
                 },
@@ -2438,36 +2890,53 @@
                     ]
                 },
                 {
+                    "organization": "cn.playscala",
+                    "name": "play-mongo_2.12",
+                    "version": "0.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-mongo_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/cn/playscala/play-mongo_2.12/0.3.0/play-mongo_2.12-0.3.0.jar"
+                        },
+                        {
+                            "name": "play-mongo_2.12",
+                            "classifier": "sources",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/cn/playscala/play-mongo_2.12/0.3.0/play-mongo_2.12-0.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.softwaremill.macwire",
-                    "name": "macros_2.13",
+                    "name": "macros_2.12",
                     "version": "2.3.3",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "macros_2.13",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.13/2.3.3/macros_2.13-2.3.3.jar"
+                            "name": "macros_2.12",
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.12/2.3.3/macros_2.12-2.3.3.jar"
                         },
                         {
-                            "name": "macros_2.13",
+                            "name": "macros_2.12",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.13/2.3.3/macros_2.13-2.3.3-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.12/2.3.3/macros_2.12-2.3.3-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.scala-lang",
                     "name": "scala-library",
-                    "version": "2.13.1",
+                    "version": "2.12.8",
                     "configurations": "optional",
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                            "path": "/home/jeremy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar"
                         }
                     ]
                 }

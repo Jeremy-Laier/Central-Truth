@@ -7,6 +7,7 @@ import play.api.i18n._
 import play.api.mvc._
 import play.api.routing.Router
 import router.Routes
+import org.mongodb.scala._
 
 /**
  * Application loader that wires up the application dependencies using Macwire
@@ -25,6 +26,8 @@ class GreetingComponents(context: Context) extends BuiltInComponentsFromContext(
   LoggerConfigurator(context.environment.classLoader).foreach {
     _.configure(context.environment, context.initialConfiguration, Map.empty)
   }
+
+  // set up mongodb
 
   lazy val router: Router = {
     // add the prefix string in local scope for the Routes constructor

@@ -16,22 +16,7 @@ class GreetingService(implicit ec: ExecutionContext) {
 
   def greetingMessage(language: String) = language match {
     case "it" => "Messi"
-    case _ => 
-     
-      val uri: String = "mongodb+srv://backend:YDAv0c4JaddCajHB@demons-g8ybq.mongodb.net/test?retryWrites=true&w=majority"
-      // System.setProperty("org.mongodb.async.type", "netty")  
-      val client: MongoClient = MongoClient(uri)
-      val db: MongoDatabase = client.getDatabase("testdb")
-      val col: MongoCollection[Document] = db.getCollection("testc")
-      val doc: Document = Document("_id" -> 0, "name" -> "MongoDB", "type" -> "database",
-                             "count" -> 1, "info" -> Document("x" -> 203, "y" -> 102))
-      col.insertOne(doc)
-      col.find().first().head onComplete {
-        case Success(data) => println(data)
-        case _ => println("")
-      }
-
-      "Hello"
+    case _ => "Hello"
   }
 
 }
