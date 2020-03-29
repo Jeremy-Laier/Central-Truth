@@ -13,7 +13,7 @@ export default class Login extends Component {
 
     onLogin() {
         const { username, password } = this.state;
-        if (username == 'hi') {
+        if (username == '') {
             this.props.navigation.reset({
                 index: 0,
                 routes: [{ name: 'Patient and Equipment' }],
