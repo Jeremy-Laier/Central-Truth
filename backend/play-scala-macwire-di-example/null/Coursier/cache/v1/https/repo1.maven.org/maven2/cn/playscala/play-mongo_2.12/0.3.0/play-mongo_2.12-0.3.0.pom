@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cn.playscala</groupId>
+    <artifactId>play-mongo_2.12</artifactId>
+    <packaging>jar</packaging>
+    <description>play-mongo</description>
+    <url>https://github.com/playcommunity/play-mongo</url>
+    <version>0.3.0</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>play-mongo</name>
+    <organization>
+        <name>cn.playscala</name>
+        <url>https://github.com/playcommunity</url>
+    </organization>
+    <scm>
+        <url>git@github.com:playcommunity/play-mongo.git</url>
+        <connection>scm:git:git@github.com:playcommunity/play-mongo.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <name>joymufeng</name>
+            <organization>Play Community</organization>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.12.4</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.playscala</groupId>
+            <artifactId>play_2.12</artifactId>
+            <version>0.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.playscala</groupId>
+            <artifactId>codecs_2.12</artifactId>
+            <version>0.3.0</version>
+        </dependency>
+    </dependencies>
+</project>

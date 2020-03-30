@@ -7,15 +7,11 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       "com.softwaremill.macwire" %% "macros" % "2.3.3" % "provided",
       "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test,
-      "org.mongodb.scala" %% "mongo-scala-driver" % "4.0.1",
-      "cn.playscala" % "play-mongo_2.12" % "0.3.0",
+      "org.reactivemongo" %% "play2-reactivemongo" % "0.20.3-play27",
       javaWs
     ),
-    addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.1" cross CrossVersion.full),
 
     scalacOptions ++= Seq(
-      "-feature",
-      "-deprecation",
-      "-Xfatal-warnings"
+      "-feature"
     )
   )
