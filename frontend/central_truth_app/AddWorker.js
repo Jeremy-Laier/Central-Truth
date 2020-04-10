@@ -1,8 +1,9 @@
 import * as React from 'react';
-import { Alert, StyleSheet, Text, TouchableOpacity, View, TextInput, Keyboard, TouchableWithoutFeedback, Dimensions } from 'react-native';
+import { Alert, StyleSheet, Text, TouchableOpacity, View, Keyboard, TouchableWithoutFeedback, Dimensions } from 'react-native';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 import * as SecureStore from 'expo-secure-store';
 import axios from 'axios';
+import { Provider as PaperProvider, Button, TextInput } from 'react-native-paper';
 
 export default class AddWorker extends React.Component {
     state = {
@@ -34,7 +35,7 @@ export default class AddWorker extends React.Component {
     addNewWorker = () => {
         axios.post("https://virtserver.swaggerhub.com/EmilioAVazquez/COVID-19-Hackathon/1.0.0/hcw/" + this.state.jwt,
             {
-                hcwId : this.state.hcwid.toString(),
+                hcwId: this.state.hcwid.toString(),
                 firstName: this.state.first,
                 lastName: this.state.last,
                 email: this.state.email,
@@ -54,92 +55,93 @@ export default class AddWorker extends React.Component {
 
     render() {
         return (
-            <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-                <View style={{ flex: 1, alignItems: 'center', justifyContent: 'space-around' }}>
-                    <View style={styles.field}>
-                        <View style={styles.text}>
-                            <Text>First Name</Text>
+            <PaperProvider>
+                <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
+                    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'space-around' }}>
+                        <View style={styles.field}>
+                            <View style={styles.text}>
+                                <Text>First Name</Text>
+                            </View>
+                            <View style={{ flex: 1 }}>
+                                <TextInput
+                                    style={styles.input}
+                                    onChangeText={text => this.setState({ first: text })}
+                                />
+                            </View>
                         </View>
-                        <View style={{ flex: 1, paddingLeft: 50 }}>
-                            <TextInput
-                                style={{ paddingLeft: 10, height: 30, width: 140, borderColor: 'gray', borderWidth: 1 }}
-                                onChangeText={text => this.setState({ first: text })}
-                            />
+                        <View style={styles.field}>
+                            <View style={styles.text}>
+                                <Text>Last Name</Text>
+                            </View>
+                            <View style={{ flex: 1 }}>
+                                <TextInput
+                                    style={styles.input}
+                                    onChangeText={text => this.setState({ last: text })}
+                                />
+                            </View>
                         </View>
+                        <View style={styles.field}>
+                            <View style={styles.text}>
+                                <Text>Email</Text>
+                            </View>
+                            <View style={{ flex: 1 }}>
+                                <TextInput
+                                    style={styles.input}
+                                    onChangeText={text => this.setState({ email: text })}
+                                />
+                            </View>
+                        </View>
+                        <View style={styles.field}>
+                            <View style={styles.text}>
+                                <Text>Phone Number</Text>
+                            </View>
+                            <View style={{ flex: 1 }}>
+                                <TextInput
+                                    style={styles.input}
+                                    onChangeText={text => this.setState({ phone: text })}
+                                    keyboardType='number-pad'
+                                />
+                            </View>
+                        </View>
+                        <View style={styles.field}>
+                            <View style={styles.text}>
+                                <Text>Healthcare Worker ID</Text>
+                            </View>
+                            <View style={{ flex: 1 }}>
+                                <TextInput
+                                    style={styles.input}
+                                    onChangeText={text => this.setState({ hcwid: text })}
+                                    keyboardType='number-pad'
+                                />
+                            </View>
+                        </View>
+                        <View style={styles.field}>
+                            <View style={styles.text}>
+                                <Text>Hospital ID</Text>
+                            </View>
+                            <View style={{ flex: 1 }}>
+                                <TextInput
+                                    style={styles.input}
+                                    onChangeText={text => this.setState({ hospitalid: text })}
+                                    keyboardType='number-pad'
+                                />
+                            </View>
+                        </View>
+                        <View style={styles.submit}>
+                            <Button
+                                mode='contained'
+                                onPress={() => {
+                                    this.addNewWorker();
+                                    this.props.navigation.goBack();
+                                }}
+                            >
+                                Submit
+                            </Button>
+                        </View>
+                        <View style={{ flex: 3 }}></View>
                     </View>
-                    <View style={styles.field}>
-                        <View style={styles.text}>
-                            <Text>Last Name</Text>
-                        </View>
-                        <View style={{ flex: 1, paddingLeft: 50 }}>
-                            <TextInput
-                                style={{ paddingLeft: 10, height: 30, width: 140, borderColor: 'gray', borderWidth: 1 }}
-                                onChangeText={text => this.setState({ last: text })}
-                            />
-                        </View>
-                    </View>
-                    <View style={styles.field}>
-                        <View style={styles.text}>
-                            <Text>Email</Text>
-                        </View>
-                        <View style={{ flex: 1, paddingLeft: 50 }}>
-                            <TextInput
-                                style={{ paddingLeft: 10, height: 30, width: 140, borderColor: 'gray', borderWidth: 1 }}
-                                onChangeText={text => this.setState({ email: text })}
-                            />
-                        </View>
-                    </View>
-                    <View style={styles.field}>
-                        <View style={styles.text}>
-                            <Text>Phone Number</Text>
-                        </View>
-                        <View style={{ flex: 1, paddingLeft: 50 }}>
-                            <TextInput
-                                style={{ paddingLeft: 10, height: 30, width: 140, borderColor: 'gray', borderWidth: 1 }}
-                                onChangeText={text => this.setState({ phone: text })}
-                                keyboardType='number-pad'
-                            />
-                        </View>
-                    </View>
-                    <View style={styles.field}>
-                        <View style={styles.text}>
-                            <Text>Healthcare Worker ID</Text>
-                        </View>
-                        <View style={{ flex: 1, paddingLeft: 50 }}>
-                            <TextInput
-                                style={{ paddingLeft: 10, height: 30, width: 140, borderColor: 'gray', borderWidth: 1 }}
-                                onChangeText={text => this.setState({ hcwid: text })}
-                                keyboardType='number-pad'
-                            />
-                        </View>
-                    </View>
-                    <View style={styles.field}>
-                        <View style={styles.text}>
-                            <Text>Hospital ID</Text>
-                        </View>
-                        <View style={{ flex: 1, paddingLeft: 50 }}>
-                            <TextInput
-                                style={{ paddingLeft: 10, height: 30, width: 140, borderColor: 'gray', borderWidth: 1 }}
-                                onChangeText={text => this.setState({ hospitalid: text })}
-                                keyboardType='number-pad'
-                            />
-                        </View>
-                    </View>
-                    <View style={styles.submit}>
-                        <TouchableOpacity
-                            style={styles.button}
-                            onPress={() => {
-                                this.addNewWorker();
-                                this.props.navigation.goBack();
-                            }}
-                        >
-                            <Text>Submit</Text>
-                        </TouchableOpacity>
-                    </View>
-                    <View style={{ flex: 3 }}></View>
-                </View>
-            </TouchableWithoutFeedback>
-
+                </TouchableWithoutFeedback>
+            </PaperProvider>
         )
     }
 }
@@ -186,6 +188,11 @@ const styles = StyleSheet.create({
         padding: 10,
         width: Dimensions.get('window').width / 2,
         textAlign: 'center',
+    },
+    input: {
+        height: 50,
+        width: 170,
+        alignSelf: 'center'
     },
 });
 

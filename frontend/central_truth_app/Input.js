@@ -1,8 +1,9 @@
 import * as React from 'react';
-import { Alert, StyleSheet, Text, TouchableOpacity, View, TextInput, Keyboard, KeyboardAvoidingView, Platform } from 'react-native';
+import { Alert, StyleSheet, Text, View } from 'react-native';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 import * as SecureStore from 'expo-secure-store';
 import axios from 'axios';
+import { Provider as PaperProvider, Button, TextInput } from 'react-native-paper';
 
 export default class Input extends React.Component {
     state = {
@@ -143,139 +144,139 @@ export default class Input extends React.Component {
 
     render() {
         return (
-            <KeyboardAwareScrollView
-                resetScrollToCoords={{ x: 0, y: 0 }}
-                contentContainerStyle={{ flex: 1, justifyContent: 'space-around', alignItems: 'center', paddingBottom: 100 }}
-                scrollEnabled={true}
-            >
-                <View style={styles.field}>
-                    <Text style={styles.title}>Equipment</Text>
-                </View>
-                <View style={styles.field}>
-                    <View style={styles.text}>
-                        <Text>Gloves</Text>
+            <PaperProvider>
+                <KeyboardAwareScrollView
+                    resetScrollToCoords={{ x: 0, y: 0 }}
+                    contentContainerStyle={{ flex: 1, justifyContent: 'space-around', alignItems: 'center', paddingBottom: 100 }}
+                    scrollEnabled={true}
+                >
+                    <View style={styles.field}>
+                        <Text style={styles.title}>Equipment</Text>
                     </View>
-                    <View style={{ flex: 1, paddingLeft: 50 }}>
-                        <TextInput
-                            style={{ paddingLeft: 10, height: 40, width: 140, borderColor: 'gray', borderWidth: 1 }}
-                            onChangeText={text => this.setState({ gloves: text })}
-                            value={this.state.gloves}
-                            keyboardType='number-pad'
-                        />
+                    <View style={styles.field}>
+                        <View style={styles.text}>
+                            <Text>Gloves</Text>
+                        </View>
+                        <View style={{ flex: 1 }}>
+                            <TextInput
+                                style={styles.input}
+                                onChangeText={text => this.setState({ gloves: text })}
+                                value={this.state.gloves}
+                                keyboardType='number-pad'
+                            />
+                        </View>
                     </View>
-                </View>
-                <View style={styles.field}>
-                    <View style={styles.text}>
-                        <Text>Masks</Text>
+                    <View style={styles.field}>
+                        <View style={styles.text}>
+                            <Text>Masks</Text>
+                        </View>
+                        <View style={{ flex: 1 }}>
+                            <TextInput
+                                style={styles.input}
+                                onChangeText={text => this.setState({ masks: text })}
+                                value={this.state.masks}
+                                keyboardType='number-pad'
+                            />
+                        </View>
                     </View>
-                    <View style={{ flex: 1, paddingLeft: 50 }}>
-                        <TextInput
-                            style={{ paddingLeft: 10, height: 40, width: 140, borderColor: 'gray', borderWidth: 1 }}
-                            onChangeText={text => this.setState({ masks: text })}
-                            value={this.state.masks}
-                            keyboardType='number-pad'
-                        />
+                    <View style={styles.field}>
+                        <View style={styles.text}>
+                            <Text>Ventilators</Text>
+                        </View>
+                        <View style={{ flex: 1 }}>
+                            <TextInput
+                                style={styles.input}
+                                onChangeText={text => this.setState({ ventilators: text })}
+                                value={this.state.ventilators}
+                                keyboardType='number-pad'
+                            />
+                        </View>
                     </View>
-                </View>
-                <View style={styles.field}>
-                    <View style={styles.text}>
-                        <Text>Ventilators</Text>
+                    <View style={styles.field}>
+                        <View style={{ flex: 1 }}>
+                            <TextInput
+                                style={styles.input}
+                                onChangeText={text => this.setState({ customName: text })}
+                                value={this.state.customName}
+                            />
+                        </View>
+                        <View style={{ flex: 1 }}>
+                            <TextInput
+                                style={styles.input}
+                                onChangeText={text => this.setState({ custom: text })}
+                                value={this.state.custom}
+                                keyboardType='number-pad'
+                            />
+                        </View>
                     </View>
-                    <View style={{ flex: 1, paddingLeft: 50 }}>
-                        <TextInput
-                            style={{ paddingLeft: 10, height: 40, width: 140, borderColor: 'gray', borderWidth: 1 }}
-                            onChangeText={text => this.setState({ ventilators: text })}
-                            value={this.state.ventilators}
-                            keyboardType='number-pad'
-                        />
+                    <View style={styles.field}>
+                        <Button
+                            mode='contained'
+                            onPress={() => { this.setState({ custom: '', customName: '' }); this.submitEquipment() }}
+                        >
+                            Submit</Button>
                     </View>
-                </View>
-                <View style={styles.field}>
-                    <View style={{ flex: 1, alignItems: 'center' }}>
-                        <TextInput
-                            style={{ paddingLeft: 10, height: 40, width: 140, borderColor: 'gray', borderWidth: 1 }}
-                            onChangeText={text => this.setState({ customName: text })}
-                            value={this.state.customName}
-                        />
+                    <View style={styles.field}>
+                        <Text style={styles.title}>Patient</Text>
                     </View>
-                    <View style={{ flex: 1, paddingLeft: 50 }}>
-                        <TextInput
-                            style={{ paddingLeft: 10, height: 40, width: 140, borderColor: 'gray', borderWidth: 1 }}
-                            onChangeText={text => this.setState({ custom: text })}
-                            value={this.state.custom}
-                            keyboardType='number-pad'
-                        />
+                    <View style={styles.field}>
+                        <View style={styles.text}>
+                            <Text>First Name</Text>
+                        </View>
+                        <View style={{ flex: 1 }}>
+                            <TextInput
+                                style={styles.input}
+                                onChangeText={text => this.setState({ first: text })}
+                                value={this.state.first}
+                            />
+                        </View>
                     </View>
-                </View>
-                <View style={styles.field}>
-                    <TouchableOpacity
-                        style={styles.button}
-                        onPress={() => { this.setState({ custom: '', customName: '' }); this.submitEquipment() }}
-                    >
-                        <Text>Submit</Text>
-                    </TouchableOpacity>
-                </View>
-                <View style={styles.field}>
-                    <Text style={styles.title}>Patient</Text>
-                </View>
-                <View style={styles.field}>
-                    <View style={styles.text}>
-                        <Text>First Name</Text>
+                    <View style={styles.field}>
+                        <View style={styles.text}>
+                            <Text>Last Name</Text>
+                        </View>
+                        <View style={{ flex: 1 }}>
+                            <TextInput
+                                style={styles.input}
+                                onChangeText={text => this.setState({ last: text })}
+                                value={this.state.last}
+                            />
+                        </View>
                     </View>
-                    <View style={{ flex: 1 }}>
-                        <TextInput
-                            style={{ paddingLeft: 10, height: 40, width: 140, borderColor: 'gray', borderWidth: 1 }}
-                            onChangeText={text => this.setState({ first: text })}
-                            value={this.state.first}
-                        />
+                    <View style={styles.field}>
+                        <View style={styles.text}>
+                            <Text>Weight</Text>
+                        </View>
+                        <View style={{ flex: 1 }}>
+                            <TextInput
+                                style={styles.input}
+                                onChangeText={text => this.setState({ weight: text })}
+                                value={this.state.weight}
+                                keyboardType='number-pad'
+                            />
+                        </View>
                     </View>
-                </View>
-                <View style={styles.field}>
-                    <View style={styles.text}>
-                        <Text>Last Name</Text>
+                    <View style={styles.field}>
+                        <View style={styles.text}>
+                            <Text>Status</Text>
+                        </View>
+                        <View style={{ flex: 1 }}>
+                            <TextInput
+                                style={styles.input}
+                                onChangeText={text => this.setState({ status: text })}
+                                value={this.state.status}
+                            />
+                        </View>
                     </View>
-                    <View style={{ flex: 1 }}>
-                        <TextInput
-                            style={{ paddingLeft: 10, height: 40, width: 140, borderColor: 'gray', borderWidth: 1 }}
-                            onChangeText={text => this.setState({ last: text })}
-                            value={this.state.last}
-                        />
+                    <View style={styles.field}>
+                        <Button
+                            mode='contained'
+                            onPress={() => { console.log('Pressed'); this.setState({ status: '', first: '', last: '', weight: '' }); this.addNewPatient() }}
+                        >Add / Update
+                        </Button>
                     </View>
-                </View>
-                <View style={styles.field}>
-                    <View style={styles.text}>
-                        <Text>Weight</Text>
-                    </View>
-                    <View style={{ flex: 1 }}>
-                        <TextInput
-                            style={{ paddingLeft: 10, height: 40, width: 140, borderColor: 'gray', borderWidth: 1 }}
-                            onChangeText={text => this.setState({ weight: text })}
-                            value={this.state.weight}
-                            keyboardType='number-pad'
-                        />
-                    </View>
-                </View>
-                <View style={styles.field}>
-                    <View style={styles.text}>
-                        <Text>Status</Text>
-                    </View>
-                    <View style={{ flex: 1 }}>
-                        <TextInput
-                            style={{ paddingLeft: 10, height: 40, width: 140, borderColor: 'gray', borderWidth: 1 }}
-                            onChangeText={text => this.setState({ status: text })}
-                            value={this.state.status}
-                        />
-                    </View>
-                </View>
-                <View style={styles.field}>
-                    <TouchableOpacity
-                        style={styles.button}
-                        onPress={() => { console.log('Pressed'); this.setState({ status: '', first: '', last: '', weight: '' }); this.addNewPatient() }}
-                    >
-                        <Text>Add / Update</Text>
-                    </TouchableOpacity>
-                </View>
-            </KeyboardAwareScrollView>
+                </KeyboardAwareScrollView>
+            </PaperProvider>
 
         );
     }
@@ -314,6 +315,11 @@ const styles = StyleSheet.create({
         backgroundColor: "#DDDDDD",
         padding: 10
     },
+    input: {
+        height: 50,
+        width: 170,
+        alignSelf: 'center'
+    }
 });
 
 

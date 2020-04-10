@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Alert, Image, Button, TextInput, View, StyleSheet, TouchableWithoutFeedback, Keyboard } from 'react-native';
+import { Alert, Image, View, StyleSheet, TouchableWithoutFeedback, Keyboard } from 'react-native';
 import axios from 'axios'
 import * as SecureStore from 'expo-secure-store';
+import { Provider as PaperProvider, Button, TextInput } from 'react-native-paper';
 
 export default class Login extends Component {
     constructor(props) {
@@ -65,52 +66,58 @@ export default class Login extends Component {
 
     render() {
         return (
-            <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-                <View style={styles.container}>
-                    <Image style={styles.icon} source={require('./assets/person.png')}></Image>
-                    <TextInput
-                        value={this.state.username}
-                        onChangeText={(username) => this.setState({ username })}
-                        placeholder={'Username'}
-                        style={styles.input}
-                    />
-                    <TextInput
-                        value={this.state.password}
-                        onChangeText={(password) => this.setState({ password })}
-                        placeholder={'Password'}
-                        secureTextEntry={true}
-                        style={styles.input}
-                    />
+            <PaperProvider>
+                <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
+                    <View style={styles.container}>
+                        <Image style={styles.icon} source={require('./assets/person.png')}></Image>
+                        <TextInput
+                            value={this.state.username}
+                            onChangeText={(username) => this.setState({ username })}
+                            label='Username'
+                            mode='outlined'
+                            style={styles.input}
+                        />
+                        <TextInput
+                            value={this.state.password}
+                            onChangeText={(password) => this.setState({ password })}
+                            label='Password'
+                            secureTextEntry={true}
+                            mode='outlined'
+                            style={styles.input}
+                        />
 
-                    <Button
-                        title={'Login'}
-                        style={styles.input}
-                        onPress={this.onLogin.bind(this)}
-                    />
-                </View>
-            </TouchableWithoutFeedback>
+                        <Button
+                            style={styles.button}
+                            mode='contained'
+                            onPress={this.onLogin.bind(this)}
+                        >Login</Button>
+                    </View>
+                </TouchableWithoutFeedback>
+            </PaperProvider>
         );
     }
 }
 
 const styles = StyleSheet.create({
+    button: {
+        width: 200,
+        alignSelf: 'center'
+    },
     container: {
         flex: 1,
-        alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: '#ecf0f1',
+        paddingBottom: 200,
     },
     input: {
         width: 200,
-        height: 44,
-        padding: 10,
-        borderWidth: 1,
-        borderColor: 'black',
-        marginBottom: 10,
+        alignSelf: 'center',
+        paddingBottom: 20
     },
     icon: {
         width: 100,
         height: 100,
         marginBottom: 50,
+        alignSelf: 'center'
     },
 });

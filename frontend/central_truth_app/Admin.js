@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { Alert, StyleSheet, Text, TouchableOpacity, View, FlatList, Keyboard, TextInput, Dimensions, TouchableWithoutFeedback } from 'react-native';
+import { Alert, StyleSheet, Text, TouchableOpacity, View, FlatList, Keyboard, Dimensions, TouchableWithoutFeedback } from 'react-native';
 import * as SecureStore from 'expo-secure-store';
 import axios from 'axios';
+import { Provider as PaperProvider, Button, TextInput } from 'react-native-paper';
 
 export default class Admin extends React.Component {
     state = {
@@ -143,6 +144,7 @@ export default class Admin extends React.Component {
 
     render() {
         return (
+            <PaperProvider>
             <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
                 <View style={{ flex: 1, alignItems: 'center', justifyContent: 'space-around' }}>
                     <View style={styles.field}>
@@ -152,9 +154,9 @@ export default class Admin extends React.Component {
                         <View style={styles.text}>
                             <Text>Doctors</Text>
                         </View>
-                        <View style={{ flex: 1, paddingLeft: 50 }}>
+                        <View style={{ flex: 1 }}>
                             <TextInput
-                                style={{ paddingLeft: 10, height: 30, width: 140, borderColor: 'gray', borderWidth: 1 }}
+                                style={styles.input}
                                 onChangeText={text => this.setState({ doctors: text })}
                                 value={this.state.doctors}
                                 keyboardType='number-pad'
@@ -165,9 +167,9 @@ export default class Admin extends React.Component {
                         <View style={styles.text}>
                             <Text>Nurses</Text>
                         </View>
-                        <View style={{ flex: 1, paddingLeft: 50 }}>
+                        <View style={{ flex: 1 }}>
                             <TextInput
-                                style={{ paddingLeft: 10, height: 30, width: 140, borderColor: 'gray', borderWidth: 1 }}
+                                style={styles.input}
                                 onChangeText={text => this.setState({ nurses: text })}
                                 value={this.state.nurses}
                                 keyboardType='number-pad'
@@ -178,9 +180,9 @@ export default class Admin extends React.Component {
                         <View style={styles.text}>
                             <Text>Tests</Text>
                         </View>
-                        <View style={{ flex: 1, paddingLeft: 50 }}>
+                        <View style={{ flex: 1 }}>
                             <TextInput
-                                style={{ paddingLeft: 10, height: 30, width: 140, borderColor: 'gray', borderWidth: 1 }}
+                                style={styles.input}
                                 onChangeText={text => this.setState({ tests: text })}
                                 value={this.state.tests}
                                 keyboardType='number-pad'
@@ -191,9 +193,9 @@ export default class Admin extends React.Component {
                         <View style={styles.text}>
                             <Text>Available ICU</Text>
                         </View>
-                        <View style={{ flex: 1, paddingLeft: 50 }}>
+                        <View style={{ flex: 1 }}>
                             <TextInput
-                                style={{ paddingLeft: 10, height: 30, width: 140, borderColor: 'gray', borderWidth: 1 }}
+                                style={styles.input}
                                 onChangeText={text => this.setState({ icu: text })}
                                 value={this.state.icu}
                                 keyboardType='number-pad'
@@ -204,9 +206,9 @@ export default class Admin extends React.Component {
                         <View style={styles.text}>
                             <Text>Available Ventilators</Text>
                         </View>
-                        <View style={{ flex: 1, paddingLeft: 50 }}>
+                        <View style={{ flex: 1 }}>
                             <TextInput
-                                style={{ paddingLeft: 10, height: 30, width: 140, borderColor: 'gray', borderWidth: 1 }}
+                                style={styles.input}
                                 onChangeText={text => this.setState({ ventilators: text })}
                                 value={this.state.ventilators}
                                 keyboardType='number-pad'
@@ -214,12 +216,12 @@ export default class Admin extends React.Component {
                         </View>
                     </View>
                     <View style={styles.submit}>
-                        <TouchableOpacity
-                            style={styles.button}
+                        <Button
+                            mode='contained'
                             onPress={() => { this.publishHospitalStatus() }}
                         >
-                            <Text>Publish</Text>
-                        </TouchableOpacity>
+                            Publish
+                        </Button>
                     </View>
 
 
@@ -234,17 +236,18 @@ export default class Admin extends React.Component {
                         />
                     </View>
                     <View style={styles.submit}>
-                        <TouchableOpacity
-                            style={styles.button}
+                        <Button
+                            mode='contained'
                             onPress={() => { this.props.navigation.navigate('New Healthcare Worker')}}
                         >
-                            <Text>Add New Workers</Text>
-                        </TouchableOpacity>
+                            Add New Workers
+                        </Button>
                     </View>
                     <View style={styles.field}></View>
                     <View style={styles.field}></View>
                 </View>
             </TouchableWithoutFeedback>
+            </PaperProvider>
         )
     }
 }
@@ -291,4 +294,9 @@ const styles = StyleSheet.create({
         width: Dimensions.get('window').width / 2,
         textAlign: 'center',
     },
+    input: {
+        height: 35,
+        width: 170,
+        alignSelf: 'center'
+    }
 });
